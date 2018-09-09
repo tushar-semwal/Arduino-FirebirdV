@@ -58,3 +58,5 @@ firebird.menu.cpu.atmega2560.build.board=AVR_MEGA2560
 ```
 4. That's it! Close the IDE and open it again. You will be able to select your new board with name as Firebird V Mega 2560 Robot. You will be able to see the same as shown below:
 ![sample_ide](https://github.com/tushar-semwal/Arduino-FirebirdV/blob/master/images/sample.png)
+
+## Custom Arduino Libraries for Firebird V
