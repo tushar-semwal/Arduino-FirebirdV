@@ -7,8 +7,8 @@ Extending Arduino IDE for FirebirdV robot by Nex-Robotics.
 2. Install latest Arduino IDE from [here](https://www.arduino.cc/en/Main/Software).
 
 ## Setting up the Arduino IDE
-1. Open the Arduino IDE and go to Tools->Boards. You will see a board for AtMega 2560. However, this board is set at F_CPU (cpu frequency) of 16MHz but the frequencey of mega chip on Firebird robot is set to 14.7456MHz. Thus we need to create a new board configuration for the required frequencey.
-2. The new board configuration is required to be appended to **baords.text** file which can found here (by default): `C:\Program Files (x86)\Arduino\hardware\arduino\avr\` or `<INSTALLED_FOLDER>\Arduino\hardware\arduino\avr\`.
+1. Open the Arduino IDE and go to Tools->Boards. You will see a board for AtMega 2560. However, this board is set at F_CPU (cpu frequency) of 16MHz but the frequency of mega chip on Firebird robot is set to 14.7456MHz. Thus we need to create a new board configuration for the required frequencey.
+2. The new board configuration is required to be appended to **boards.text** file which can found here (by default): `C:\Program Files (x86)\Arduino\hardware\arduino\avr\` or `<INSTALLED_FOLDER>\Arduino\hardware\arduino\avr\`.
 3. Open the **boards.txt** file in admin mode using your favourite text editor and add this to the file:
 ```
 firebird.name=Firebird V Mega 2560 Robot
