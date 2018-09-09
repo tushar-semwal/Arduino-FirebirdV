@@ -1,0 +1,38 @@
+#######################################
+# Syntax Coloring Map For Firebird V
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Firebird	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+readBattery	KEYWORD2
+readBatteryVolt	KEYWORD2
+readLine1	KEYWORD2
+readLine2	KEYWORD2
+readLine3	KEYWORD2
+readLineAll	KEYWORD2
+buzzerOn	KEYWORD2
+buzzerOff	KEYWORD2
+readIR1	KEYWORD2
+readIR2	KEYWORD2
+readIR3	KEYWORD2
+readIR4	KEYWORD2
+readIR5	KEYWORD2
+readSharpIR1	KEYWORD2
+readSharpIR2	KEYWORD2
+readSharpIR3	KEYWORD2
+readSharpIR4	KEYWORD2
+readSharpIR5	KEYWORD2
+
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
