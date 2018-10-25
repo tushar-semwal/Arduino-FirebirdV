@@ -61,6 +61,7 @@ firebird.menu.cpu.atmega2560.build.board=AVR_MEGA2560
 
 ## 3. Custom Arduino Libraries for Firebird V
 1. Put the folder FirebirdV/* [found here](https://github.com/tushar-semwal/Arduino-FirebirdV/tree/master/Library) into your `C:\Users\<UNAME>\Documents\Arduino\libraries\` folder. Close the IDE and open it again to see the examples under FirebirdV. 
+![example](https://github.com/tushar-semwal/Arduino-FirebirdV/blob/master/images/examples_arduino_FB.png)
 
 ## 4. Using the Arduino IDE Serial terminal. 
 * Connect the USB cable to Firebird V robot and PC.
