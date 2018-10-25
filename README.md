@@ -2,11 +2,11 @@
 Extending Arduino IDE for FirebirdV robot by Nex-Robotics.
 
 `Note: Current instructions are for Windows OS. Will be adding later for linux but others are free to try. Will not be that different from Windows.`. 
-## Initial environment setup
+## 1. Initial environment setup
 1. Install AVR-GCC from [here](https://sourceforge.net/projects/winavr/files/).
 2. Install latest Arduino IDE from [here](https://www.arduino.cc/en/Main/Software).
 
-## Setting up the Arduino IDE
+## 2. Setting up the Arduino IDE
 1. Open the Arduino IDE and go to Tools->Boards. You will see a board for AtMega 2560. However, this board is set at F_CPU (cpu frequency) of 16MHz but the frequency of mega chip on Firebird robot is set to 14.7456MHz. Thus we need to create a new board configuration for the required frequencey.
 2. The new board configuration is required to be appended to **boards.text** file which can found here (by default): `C:\Program Files (x86)\Arduino\hardware\arduino\avr\` or `<INSTALLED_FOLDER>\Arduino\hardware\arduino\avr\`.
 3. Open the **boards.txt** file in **Admin** mode using your favourite text editor and add this to the file. Save it then.:
@@ -59,10 +59,10 @@ firebird.menu.cpu.atmega2560.build.board=AVR_MEGA2560
 4. That's it! Close the IDE and open it again. You will be able to select your new board with name as Firebird V Mega 2560 Robot. You will be able to see the same as shown below:
 ![sample_ide](https://github.com/tushar-semwal/Arduino-FirebirdV/blob/master/images/sample.png)
 
-## Custom Arduino Libraries for Firebird V
+## 3. Custom Arduino Libraries for Firebird V
 1. Put the folder FirebirdV/* [found here](https://github.com/tushar-semwal/Arduino-FirebirdV/tree/master/Library) into your `C:\Users\<UNAME>\Documents\Arduino\libraries\` folder. Close the IDE and open it again to see the examples under FirebirdV. 
 
-## Using the Arduino IDE Serial terminal. 
+## 4. Using the Arduino IDE Serial terminal. 
 * Connect the USB cable to Firebird V robot and PC.
 * Check the Tools->Port and check when the appropriate port occurs. 
 * Since the USB port of Firebird is connected to the UART2 of AtMega chip, use Serial2.begin and other functions for communication. For better understanding, see the examples.
