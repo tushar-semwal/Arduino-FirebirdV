@@ -1,7 +1,8 @@
 # Arduino-FirebirdV (AtMega 2560)
 Extending Arduino IDE for FirebirdV robot by Nex-Robotics.
 
-`Note: Current instructions are for Windows OS. Will be adding later for linux but others are free to try. Will not be that different from Windows.`. 
+`Note1: Current instructions are for Windows OS. Will be adding later for linux but others are free to try. Will not be that different from Windows.`. 
+`Note2: Currently, this Arduino extension can only be used for creating the hex files. Directly uploading to FirebirdV is NOT implemented.`
 ## 1. Initial environment setup
 1. Install AVR-GCC from [here](https://sourceforge.net/projects/winavr/files/).
 2. Install latest Arduino IDE from [here](https://www.arduino.cc/en/Main/Software).
